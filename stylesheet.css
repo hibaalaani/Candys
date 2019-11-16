@@ -1,0 +1,48 @@
+body{
+    background: #f5d9df;
+    font-family: "nunito",sans-serif;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+    color:white;
+}
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+}
+#mainHeader span{
+    color: #ea1c2c;
+}
+.mainHeaderTow h4{
+    color:#ea1c2c;
+    font-size:1.5rem;
+    font-weight: 50;
+}
+.mainHeaderTow p{
+color:rgb(245, 141, 159);
+font-size:1.125rem;
+font-weight: 100;
+line-height: 2;
+}
+.navbar-toggler{
+    border:none;
+}
+.content{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.navbar.scrolled{
+    background: rgb(238, 196, 248, 0.9);
+    transition: background 500ms;
+}
+@media(max-width:1200px){
+    #mainHeader h1{
+    font-size: 2rem;
+    font-weight: 100;
+}
+}
